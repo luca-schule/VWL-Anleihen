@@ -1,6 +1,7 @@
 \documentclass[10pt,a4paper, ngerman]{beamer}
 
 \include{beamer}
+\usepackage{eurosym}
 
 \AtBeginSection{\frame{\frametitle{Gliederung}\tableofcontents[currentsection]}}
 
@@ -50,27 +51,52 @@
 \end{frame}
 
 \section{Rendite}
-\begin{frame}{Rendite}
-\begin{itemize}
-	\item 
-\end{itemize}
+\begin{frame}{Rendite}{Berechnung}
+\[Rendite = 100*\left ( \frac{\left ( Zinskoupon + \frac{Verkaufskurs - Kaufkurs}{Laufzeit} \right )}{Kaufkurs} \right )\]
+\pftn{https://www.gevestor.de/details/effektivverzinsung-bei-anleihen-so-wird-sie-berechnet-619805.html}
+\pause
+\begin{block}{Beispiel: Bundesanleihe (10 Jahre)}
+\textbf{Zinskoupon}: 0,5 \% \textbf{Kaufkurs}: 65 \% \textbf{Verkaufskurs}: 75 \% \\
+--> \textbf{Rendite}: 2,31 \%
+\end{block}
+\pftn{https://www.deutsche-finanzagentur.de/de/institutionelle-investoren/bundeswertpapiere/bundesanleihen/}
+\pftn{https://www.finanzen.net/zinsen/10j-Bundesanleihen}
 \end{frame}
 
 \section{Liquidität}
+\begin{frame}{Liquidität}
+\begin{itemize}
+	\item Können jederzeit an der Börse gehandelt werden
+	\item Teilweise Handel von Person zu Person möglich \pause
+	\item Kosten für Handel an der Börse
+\end{itemize}
+\pftn{https://www.finanztip.de/anleihen/staatsanleihen/}
+\end{frame}
 
-
-\section{Kosten}
-
+%\section{Kosten}
+%\begin{frame}
+%
+%\end{frame}
 
 \section{Voraussetzungen}
 \subsection{Mindesteinlage}
 \begin{frame}{Mindesteinlage}{Vorraussetzungen}
 \pftn{Judith Engst \& Janne Kipp{,} \textit{Erfolgreiche Geldanlage für Dummies}{,} Wiley, 2017 (Seite 156)}
-
+\begin{itemize}
+	\item Deutsche Bundesanleihe: 1 cent\ftn{1}{https://www.deutsche-finanzagentur.de/de/factsheet/sheet-detail/productdata/sheet/DE0001102440/}
+	\item Unternehmensanleihen: Meist höher (>20.000 \euro)
+\end{itemize}
 \end{frame}
 
 
 \section{Nachhaltigkeit}
-
+\begin{frame}{Nachhatigkeit}
+\begin{itemize}
+	\item Kommt auf den Schuldner an
+	\item Green Bonds: Umweltfreundlich
+\end{itemize}
+\pftn{https://www.thebalance.com/what-are-green-bonds-417154}
+\pftn{Judith Engst \& Janne Kipp{,} \textit{Erfolgreiche Geldanlage für Dummies}{,} Wiley, 2017 (Seite 180)}
+\end{frame}
 
 \end{document}
